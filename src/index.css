@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --main-color: #00ff99;
+  --second-color: #00e187;
+  --third-color: #04471c;
+  --fourth-color: #282829;
+  --dark-color: #1c1c22;
+}
+
+.nav-item {
+  @apply hover:text-main-color hover:border-b-2 border-main-color cursor-pointer;
+}
+
+.nav-item-mobile {
+  @apply hover:text-main-color cursor-pointer;
+}
+
+.input {
+  @apply bg-dark-color py-2 px-4 rounded-md outline-none w-full max-md:text-sm;
+}
+
+.btn {
+  @apply bg-main-color px-6 py-2 w-full rounded-lg text-black;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.font-system-ui {
+  font-family: system-ui;
+}
+
+body {
+  background: var(--dark-color);
+  height: 100%;
+}
+
+.scrollable-content {
+  overflow-y: auto; /* Enable vertical scrolling */
+  /* max-height: 400px; Adjust based on your needs */
+}
+.scrollable-content::-webkit-scrollbar {
+  width: 0;
+}
+.scrollable-content.show-scrollbar::-webkit-scrollbar {
+  width: 8px;
+}
+.scrollable-content::-webkit-scrollbar-track {
+  background: transparent;
+}
+.scrollable-content::-webkit-scrollbar-thumb {
+  background: var(--main-color); /* Change this to the desired green color */
+  border-radius: 4px;
+}
+
