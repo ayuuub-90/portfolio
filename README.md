@@ -1,5 +1,7 @@
 # AYOUB AHNAOU | PORTFOLIO
 
+Portfolio website built in React
+This was a website built to showcase my technical skills, web design skills.
 
 ## Overview
 
@@ -10,7 +12,7 @@
     4. Share any other tips or guidance for others attempting this or something similar.
  -->
 
- ![alt text](macos-big-sur-apple-layers-fluidic-colorful-wwdc-stock-4096x2304-1455.jpg)
+![alt text](<Screenshot from 2024-07-26 10-38-38.png>)
 
 ### Built With
 
