@@ -1,12 +1,5 @@
-# Name of Project
+# AYOUB AHNAOU | PORTFOLIO
 
-## Table of Contents
-
-- [Overview](#overview)
-- [Built With](#built-with)
-- [Features](#features)
-- [Contact](#contact)
-- [Acknowledgements](#acknowledgements)
 
 ## Overview
 
@@ -16,6 +9,8 @@
     3. List a few specific technical things that you learned or improved on.
     4. Share any other tips or guidance for others attempting this or something similar.
  -->
+
+ ![alt text](macos-big-sur-apple-layers-fluidic-colorful-wwdc-stock-4096x2304-1455.jpg)
 
 ### Built With
 
