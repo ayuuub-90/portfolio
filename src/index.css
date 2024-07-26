@@ -3,9 +3,9 @@
 @tailwind utilities;
 
 :root {
-  --main-color: #00ff99;
-  --second-color: #00e187;
-  --third-color: #04471c;
+  --main-color: #ffc400;
+  --second-color: #e1bf00;
+  --third-color: #473d04;
   --fourth-color: #282829;
   --dark-color: #1c1c22;
 }

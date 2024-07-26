@@ -9,7 +9,7 @@ const Loader = () => {
         size="40"
         bg-opacity="0.1"
         speed="1.75"
-        color="#00ff99"
+        color="var(--main-color)"
       ></l-hourglass>
     </div>
   );

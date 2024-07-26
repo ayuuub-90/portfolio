@@ -6,9 +6,9 @@ import {
   IoLogoNodejs,
   IoLogoReact,
 } from "react-icons/io5";
-import { RiTailwindCssFill } from "react-icons/ri";
-import { SiMongodb } from "react-icons/si";
-import { TbSql } from "react-icons/tb";
+import { RiBootstrapFill, RiTailwindCssFill } from "react-icons/ri";
+import { SiGit, SiMongodb, SiPostman, SiSass, SiTypescript } from "react-icons/si";
+import { TbBrandMysql } from "react-icons/tb";
 
 const Skills = () => {
   const skills = {
@@ -16,15 +16,20 @@ const Skills = () => {
     description:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat, eligendi corporis. Recusandae voluptas beatae, quod dolore non accusamus dolorem doloremque!.",
     items: [
-      { icon: <IoLogoHtml5 className="size-10 max-md:size-5"/>, title: "HTML 5" },
-      { icon: <IoLogoCss3 className="size-10 max-md:size-5"/>, title: "CSS 3" },
+      { icon: <IoLogoHtml5 className="size-10 max-md:size-5"/>, title: "HTML5" },
+      { icon: <IoLogoCss3 className="size-10 max-md:size-5"/>, title: "CSS3" },
       { icon: <IoLogoJavascript className="size-10 max-md:size-5"/>, title: "javascript" },
+      { icon: <SiTypescript className="size-10 max-md:size-5"/>, title: "typescript" },
       { icon: <FaJava className="size-10 max-md:size-5"/>, title: "java" },
       { icon: <IoLogoReact className="size-10 max-md:size-5"/>, title: "react.js" },
       { icon: <RiTailwindCssFill className="size-10 max-md:size-5"/>, title: "tailwind css" },
+      { icon: <RiBootstrapFill className="size-10 max-md:size-5"/>, title: "bootstrap" },
       { icon: <IoLogoNodejs className="size-10 max-md:size-5"/>, title: "node.js" },
-      { icon: <TbSql className="size-10 max-md:size-5"/>, title: "SQL" },
+      { icon: <SiPostman className="size-10 max-md:size-5"/>, title: "postman" },
+      { icon: <SiSass className="size-10 max-md:size-5"/>, title: "sass" },
+      { icon: <TbBrandMysql className="size-10 max-md:size-5"/>, title: "mysql" },
       { icon: <SiMongodb className="size-10 max-md:size-5"/>, title: "MongoDB" },
+      { icon: <SiGit className="size-10 max-md:size-5"/>, title: "git" },
       { icon: <FaFigma className="size-10 max-md:size-5"/>, title: "Figma" },
     ],
   };

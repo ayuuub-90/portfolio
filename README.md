@@ -7,8 +7,7 @@ This portfolio project showcases my skills, projects, and experiences as a softw
 
 ## Overview
 
-![alt text](<Screenshot from 2024-07-26 10-38-38.png>)
-
+![alt text](image.png)
 
 ## Feature
 

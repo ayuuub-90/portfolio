@@ -30,6 +30,11 @@ const AboutMe = () => {
           </div>
         ))}
       </div>
+      <div className="pr-4 pb-6">
+        <label className="w-full cursor-pointer bg-white text-black center font-bold text-lg rounded-md py-1 max-md:text-sm">
+          Resume
+        </label>
+      </div>
     </div>
   );
 };
